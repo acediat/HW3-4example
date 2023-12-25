@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/element_list"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/add_element_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_element" />
+
+    <Button
+        android:id="@+id/go_fragments_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_fragments" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/elements_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_element"/>
+
+</LinearLayout>

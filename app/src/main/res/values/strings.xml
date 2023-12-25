@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="element_list">List of my elements:</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="description_hint">Enter description</string>
+    <string name="add_element">Add element</string>
+    <string name="go_fragments">Go to fragments activity</string>
+</resources>
